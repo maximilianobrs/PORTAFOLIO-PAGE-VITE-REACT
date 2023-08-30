@@ -13,7 +13,7 @@ export function MyProyectos() {
                 <div className="box-proyect">
 
                     <div className="box a">
-                        <h2>Proyectos</h2>
+                        {/* <h2>Proyectos</h2> */}
                     </div>
                     <div className="box b">
 

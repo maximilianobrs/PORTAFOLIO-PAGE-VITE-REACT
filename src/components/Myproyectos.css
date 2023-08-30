@@ -29,12 +29,12 @@
     background-position: center;
     transition: 1s;
 }
-.b:hover{
+/* .b:hover{
     background-image: url('https://thumbs.gfycat.com/TheseBlackandwhiteDassierat-size_restricted.gif');
     background-size: cover;
     background-position: center;
     transition: 1s;
-}
+} */
 
 .b {
     grid-column: 1/4;
