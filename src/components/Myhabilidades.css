@@ -61,6 +61,8 @@
     }
     .box-text-skills{
         text-align: center;
+        padding: 15px;
+        width: 100%;
     }
     .box {
         grid-column: 1;
