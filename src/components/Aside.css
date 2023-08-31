@@ -1,7 +1,7 @@
 aside {
     position: fixed;
-    top: 3%;
-    right: 10%;
+    top: 25px;
+    right: 11%;
     transform: translate(0%, -50%);
     background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     background-blend-mode: lighten;
@@ -10,6 +10,7 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: none;
 }
 
 .Cabecera-btn{
@@ -102,6 +103,7 @@ aside {
 @media (max-width:780px) {
     aside {
         right: 5%;
+        display: flex;
     }
 }
 @media (max-width:480px) {
