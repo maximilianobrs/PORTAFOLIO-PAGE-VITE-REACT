@@ -10,7 +10,7 @@ export function MyNav() {
                         <h2>MX</h2>
                     </div>
                     <dir>
-                        <ul>
+                        <ul className='main-ul'>
                             <li><a href="#About">About</a></li>
                             <li><a href="#Proyectos">Proyectos</a></li>
                             <li><a href="#Skills">Skills</a></li>
