@@ -12,7 +12,7 @@ export function Header() {
                         <h2>DESARROLLADOR FULL STACK</h2>
                     </div>
                     <div className='box-header-img'>
-                        <img src="https://setup-gaming.es/wp-content/uploads/2020/08/SETUP-GAMING-3D-RENDER.png" alt="astronauta" />
+                        <img src="../assets/img/setup.png" alt="astronauta" />
                     </div>
                 </div>
             </div>
