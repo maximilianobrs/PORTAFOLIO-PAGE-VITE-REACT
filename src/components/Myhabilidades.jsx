@@ -1,5 +1,5 @@
 import './Myhabilidades.css'
-
+import { img } from '../assets/img/imagenes'
 export function Habilidades() {
     return (
         <section id='Skills'>
@@ -11,34 +11,34 @@ export function Habilidades() {
                     </div>
                     <div className='box-content-icon'>
                         <div className='box-icon'>
-                            <img src="https://starpng.com/public/uploads/preview/javascript-logo-png-image-11577028009sivxgorqwt.png" alt="JavaScript icon" />
+                            <img src={img.javascript} alt="JavaScript icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://miro.medium.com/v2/resize:fit:1200/1*Yhe1R94CIotr2se7Wf6TQQ.png" alt="NodeJs icon" />
+                            <img src={img.html} alt="HTML icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://programador-jr.vercel.app/assets/images/expressjs.png" alt=" Express icon" />
+                            <img src={img.css} alt="CSS icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" alt="CSS icon" />
+                            <img src={img.node} alt="Nodejs icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML icon" />
+                            <img src={img.express} alt="Expressjs icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png" alt="Posgresql icon" />
+                            <img src={img.posgresql} alt="Posgresql icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1200px-Vitejs-logo.svg.png" alt="ViteJs icon" />
+                            <img src={img.sequelize} alt="Sequelize icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/sequelize_original_logo_icon_146348.png" alt="Sequelize icon" />
+                            <img src={img.vitejs} alt="Vitejs icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap icon" />
+                            <img src={img.bootstrap} alt="Bootstrap icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git icon" />
+                            <img src={img.git} alt="Git icon" />
                         </div>
                     </div>
                 </div>
