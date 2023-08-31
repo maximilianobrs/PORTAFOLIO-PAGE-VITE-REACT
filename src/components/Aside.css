@@ -1,7 +1,7 @@
 aside {
     position: fixed;
     top: 2%;
-    right: 2%;
+    right: 15%;
     transform: translate(0%, -50%);
     background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     background-blend-mode: lighten;
@@ -15,8 +15,8 @@ aside {
 .Cabecera-btn{
     background-color: rgba(207, 207, 207, 0.687);
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     top: -5px;
     padding: 3px;
     border-radius: 30px;
@@ -48,7 +48,7 @@ aside {
     justify-content: center;
     align-items: center;
     list-style: none;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
 }
 
 .Cabecera-nav ul li {
