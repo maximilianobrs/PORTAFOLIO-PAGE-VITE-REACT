@@ -6,7 +6,7 @@
 .box-proyect {
     display: grid;
     grid-gap: 10px;
-    grid-template: repeat(9, 1fr) / repeat(3, 1fr);
+    grid-template: repeat(9, 1fr) / repeat(4, 1fr);
     color: #444;
 }
 
@@ -29,16 +29,10 @@
     background-position: center;
     transition: 1s;
 }
-/* .b:hover{
-    background-image: url('https://thumbs.gfycat.com/TheseBlackandwhiteDassierat-size_restricted.gif');
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-} */
 
 .b {
-    grid-column: 1/4;
-    grid-row:  7/ 10;
+    grid-column: 2/5;
+    grid-row: 1/4;
     background-image: url('https://images.pexels.com/photos/5380594/pexels-photo-5380594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
@@ -53,38 +47,18 @@
     background-position: center;
 }
 
-.d {
-    grid-column: 2/4;
-    grid-row: 1/4;
+.d {    
+    grid-column: 3/5;
+    grid-row: 4/7;
     background-image: url('https://images.pexels.com/photos/797570/pexels-photo-797570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
 }
 .e{
-    grid-column: 3;
-    grid-row: 4/7;
+    grid-column: 1/5;
+    grid-row:  7/ 10;
     background-image: url('https://images.pexels.com/photos/1643392/pexels-photo-1643392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
 }
-.box-tittle{
-    margin: 4rem 0;
-}
-.text-tittle{
-    width: 70%;
-    margin: auto;
-    color: white;
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.text-tittle h2{
-    font-size: 40px;
-    color: #ffa14f;
-}
-.text-tittle p{
-    color: black;
-    font-size: 18px;
-}
+
