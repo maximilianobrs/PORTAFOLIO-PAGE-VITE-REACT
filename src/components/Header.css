@@ -60,7 +60,19 @@ header{
     transform: scale(1.1);
     transition: 1s;
 }
+@media (max-width:780px) {
+    .box-tittle-header h1{
+        font-size: 40px;
+    }
+    .box-tittle-header h2{
+        font-size: 25px;
+    }
+    .box-header-img{
+        height: 100%;
+        width: 100%;
+    }
 
+}
 
 
 

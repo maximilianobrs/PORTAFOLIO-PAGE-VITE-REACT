@@ -53,3 +53,15 @@
     height: auto;
     border-radius: 15px;
 }
+@media (max-width:780px) {
+    .box-proyect {
+        grid-template-columns: 100%;
+    }
+    .box {
+        grid-column: 1;
+        grid-row: auto; 
+    }
+    .a, .b, .c, .d, .e {
+        grid-row: span 2; /* Establecer la altura de dos filas */
+    }
+}
