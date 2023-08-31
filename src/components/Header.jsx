@@ -1,4 +1,5 @@
 import './Header.css'
+import astronauta from '../assets/img/astronauta.png'
 
 export function Header() {
 
@@ -12,7 +13,7 @@ export function Header() {
                         <h2>DESARROLLADOR FULL STACK</h2>
                     </div>
                     <div className='box-header-img'>
-                        <img src="../assets/img/setup.png" alt="astronauta" />
+                        <img src={astronauta} alt="" />
                     </div>
                 </div>
             </div>
