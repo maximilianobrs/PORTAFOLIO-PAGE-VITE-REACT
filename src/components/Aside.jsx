@@ -17,11 +17,12 @@ export function Aside() {
 
             <nav className={`Cabecera-nav ${open ? 'isActive' : ''}`}>
                 <ul>
-                    <li><a href="#Home" ><img src="https://cdn-icons-png.flaticon.com/256/25/25694.png" alt="home" /></a></li>
-                    <li><a href="#Proyectos"><img src="https://cdn-icons-png.flaticon.com/512/28/28733.png" alt="proyectos" /></a></li>
-                    <li><a href="#Skills"><img src="https://cdn-icons-png.flaticon.com/512/1087/1087902.png" alt="skills" /></a></li>
-                    <li><a href="https://github.com/maximilianobrs" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/maximiliano-briones/" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2997/PNG/512/linkedin_logo_icon_187625.png" alt="linkedin" /></a></li>
+                    <li><a href="#Home" ><img src="https://cdn-icons-png.flaticon.com/256/25/25694.png" alt="home icon" /></a></li>
+                    <li><a href="#About"><img src="https://cdn-icons-png.flaticon.com/512/686/686339.png" alt="like icon" /></a></li>
+                    <li><a href="#Proyectos"><img src="https://cdn-icons-png.flaticon.com/512/28/28733.png" alt="proyectos v" /></a></li>
+                    <li><a href="#Skills"><img src="https://cdn-icons-png.flaticon.com/512/1087/1087902.png" alt="skills icon" /></a></li>
+                    <li><a href="https://github.com/maximilianobrs" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github icon" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/maximiliano-briones/" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2997/PNG/512/linkedin_logo_icon_187625.png" alt="linkedin icon" /></a></li>
                 </ul>
             </nav>
         </aside>

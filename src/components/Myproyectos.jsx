@@ -7,7 +7,15 @@ export function MyProyectos() {
                 <div className="box-proyect">
 
                     <div className="box a">
-                    <h2>Proyectos</h2>
+                        <div className='box-tittle-proyects'>
+                            <h2>PROYECTOS</h2>
+                            <div>
+                            <h3>WEB</h3>
+                            <h3>TECNO</h3>
+                            <h3>INNOV</h3>
+                            <h3>AGIL</h3>
+                            </div>
+                        </div>
                     </div>
                     <div className="box b">
 

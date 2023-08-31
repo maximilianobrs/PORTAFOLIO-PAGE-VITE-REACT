@@ -38,7 +38,7 @@ export function Habilidades() {
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap icon" />
                         </div>
                         <div className='box-icon'>
-                            <img src="https://play-lh.googleusercontent.com/8XooEvdc_qPmf9FPw3JWInzacimJHbCult7XZUveDehlN851mCQIbWCJ8kpbNPgcYg4=w240-h480-rw" alt="SQL icon" />
+                            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git icon" />
                         </div>
                     </div>
                 </div>

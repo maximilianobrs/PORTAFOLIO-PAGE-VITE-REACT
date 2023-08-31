@@ -86,8 +86,13 @@ aside {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:780px) {
     aside {
         right: 5%;
+    }
+}
+@media (max-width:480px) {
+    aside {
+        right: 8%;
     }
 }

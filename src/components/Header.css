@@ -4,6 +4,7 @@ header{
     padding: 1rem 1rem;
     background-color: rgb(32, 32, 32);
 }
+
 .box-content-header{ 
     display: flex;
     flex-direction: column;
@@ -26,40 +27,17 @@ header{
 }
 
 .box-tittle-header h1{
+    font-family: 'Black Ops One', cursive;
+    font-weight: 400;
     font-size: 60px;
     color: #ffa95d;
 }
 .box-tittle-header h2{
     width: auto;
     font-size: 30px;
-    color: #99c7ff;
+    color: #ffffff;
 }
 
-.box-tittle-header p{
-    color: white;
-    font-size: 18px;
-}
-.box-tittle-header ul{
-    margin: 1rem 0;
-    display: flex;
-    list-style: none;
-}
-.box-tittle-header ul li{
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    background-color: white;
-    padding: 2px;
-    margin-right: 1rem;
-    transition: 1s;
-}
-.box-tittle-header ul li a{
-    text-decoration: none;
-}
-.box-tittle-header ul li:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
 @media (max-width:780px) {
     .box-tittle-header h1{
         font-size: 40px;
