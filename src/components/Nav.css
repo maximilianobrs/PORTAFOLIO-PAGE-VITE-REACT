@@ -30,7 +30,7 @@ nav {
 }
 
 @media (max-width:780px) {
-    .box-content-nav ul{
+    .box-content-nav .main-ul{
         display: none;
     }
 }
