@@ -3,19 +3,40 @@ import './Aside.css'
 
 export function Aside() {
     const [open, setOpen] = useState(false);
+    const asideRef = useRef(null);
 
     const toggleOpen = () => {
         setOpen(!open)
     }
 
+    const handleKeyDown = (event) => {
+        if (event.key === 'Escape') {
+            setOpen(false);
+        }
+    };
+
+    const handleClickOutside = (event) => {
+        if (asideRef.current && !asideRef.current.contains(event.target)) {
+            setOpen(false);
+        }
+    };
+
+    useEffect(() => {
+        document.addEventListener('click', handleClickOutside);
+        document.addEventListener('keydown', handleKeyDown);
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+            document.removeEventListener('keydown', handleKeyDown);
+        };
+    }, []);
+
     return (
-        <aside>
-            <button className='Cabecera-btn'
-                onClick={toggleOpen}>
-                <img src="https://static.vecteezy.com/system/resources/previews/011/459/588/non_2x/black-search-engine-or-magnifying-glass-icon-free-png.png" alt="" />
+        <aside ref={asideRef}> 
+            <button className='Cabecera-btn' onClick={toggleOpen}>
+                <img src="https://cdn-icons-png.flaticon.com/512/57/57477.png" alt="Lupa icon" />
             </button>
 
-            <nav className={`Cabecera-nav ${open ? 'isActive' : ''}`}>
+            <nav className={`Cabecera-nav ${open ? 'isActive' : 'isInactive'}` } >
                 <ul>
                     <li><a href="#Home" ><img src="https://cdn-icons-png.flaticon.com/256/25/25694.png" alt="home icon" /></a></li>
                     <li><a href="#About"><img src="https://cdn-icons-png.flaticon.com/512/686/686339.png" alt="like icon" /></a></li>
