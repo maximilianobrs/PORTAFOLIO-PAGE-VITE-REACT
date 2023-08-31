@@ -1,7 +1,7 @@
 aside {
     position: fixed;
     top: 2%;
-    right: 15%;
+    right: 10%;
     transform: translate(0%, -50%);
     background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     background-blend-mode: lighten;
@@ -83,5 +83,11 @@ aside {
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@media (max-width:600px) {
+    aside {
+        right: 5%;
     }
 }
