@@ -5,6 +5,9 @@ header{
     position: sticky;
     z-index: 1;
     top: 0;
+    background-image: url('../assets/img/espacio.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .box-content-header{ 
@@ -13,20 +16,13 @@ header{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    text-align: center;
 }
 
 .box-header-img{
     height: 400px;
     width: 400px;
     margin-bottom: 2rem;
-}
-.box-tittle-header{
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .box-tittle-header h1{
