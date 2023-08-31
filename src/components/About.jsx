@@ -1,6 +1,6 @@
 import './About.css'
 
-export function About(){
+export function AboutMe(){
     return(
         <section id='About' className='box-section-about'>
             <div className="container">

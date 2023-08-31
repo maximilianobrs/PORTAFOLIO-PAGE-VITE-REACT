@@ -1,16 +1,14 @@
 import { Header } from "./components/Header"
 import { Main } from "./components/Main"
 import { Footer } from "./components/Footer"
-import { Aside } from "./components/Aside"
-import { About } from "./components/About"
+import { MyNav } from "./components/Nav"
 import './App.css'
 
 function App() {
   return (
     <>
+    < MyNav />
       <Header />
-      <About />
-      <Aside />
       <Main />
       <Footer />
     </>

@@ -1,6 +1,9 @@
+#Skills{
+    margin-bottom: 0;
+}
 .box-content-skills {
     width: 100%;
-    min-height: 400px;
+    min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,8 +13,7 @@
 .box-text-skills {
     width: 50%;
     color: white;
-    margin: 1rem 0;
-
+    margin: 1rem 0 ;
 }
 
 .box-text-skills h2 {
