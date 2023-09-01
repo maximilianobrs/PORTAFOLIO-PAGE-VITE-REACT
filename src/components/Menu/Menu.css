@@ -1,6 +1,6 @@
 aside {
     position: fixed;
-    top: 1.5rem;
+    top: 20px;
     right: 10%;
     transform: translate(0%, -50%);
     background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
