@@ -12,10 +12,10 @@ header {
 
 .box-content-header {
     display: flex;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     text-align: center;
 }
 
@@ -66,5 +66,8 @@ header {
     .box-header-img {
         height: 200px;
         width: 100%;
+    }
+    .box-content-header{
+        height: 70%;
     }
 }
