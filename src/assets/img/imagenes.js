@@ -13,6 +13,7 @@ import linkedin from './linkedin.png'
 import lupa from './lupa.png'
 import estrella from   './estrella.png'
 import cohete from './cohete.png'
+import astro2 from './astro2.png'
 
 export const img = {
     javascript,
@@ -29,5 +30,6 @@ export const img = {
     linkedin,
     lupa,
     estrella,
-    cohete
+    cohete,
+    astro2
 }
