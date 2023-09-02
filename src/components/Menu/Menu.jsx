@@ -42,7 +42,7 @@ export function MyMenu() {
                     <li><a href="#About"><img src={img.estrella} alt="like icon" loading="lazy"/></a></li>
                     <li><a href="#Proyectos"><img src={img.cohete} alt="proyectos v" loading="lazy"/></a></li>
                     <li><a href="#Skills"><img src={img.lupa} alt="skills icon" loading="lazy"/></a></li>
-                    <li><a href="https://github.com/maximilianobrs" target="_blank"><img src={img.github} alt="github icon" loading="lazy"/></a></li>
+                    <li><a href="#" target="_blank"><img src={img.github} alt="github icon" loading="lazy"/></a></li>
                     <li><a href="https://www.linkedin.com/in/maximiliano-briones/" target="_blank"><img src={img.linkedin} alt="linkedin icon" loading="lazy"/></a></li>
                 </ul>
             </div>
